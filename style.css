@@ -1,0 +1,81 @@
+/* Navbar section styles starts here */
+.red-dot {
+    height: 20%;
+    position: relative;
+    top: 20px;
+}
+
+.hamburger {
+    position: absolute;
+    top: 25px;
+    left:85vw ;
+}
+
+.visibility {
+    display: none !important;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(72, 72, 120);
+    transition-delay: .2s;
+}
+
+.input-box {
+    width: 100px;
+    outline: none !important;
+    border-radius: 3px !important;
+}
+
+@media (min-width:768px) {
+    .visibility {
+        display: block !important;
+    }
+}
+
+/* Navbar section styles ends here */
+
+/*Top section starts here */
+.our-team-icon {
+    position: absolute;
+    top: 89%;
+}
+
+.our-team {
+    position: absolute;
+    top: 85%;
+}
+
+
+/* Top section ends here */
+
+
+/* Optimisation section starts here */
+
+.background-img {
+    background-repeat: no-repeat;
+    background-position: 65%;
+}
+
+.optimising-image {
+   position: relative;
+   right: 65px;
+}
+
+.background-one {
+    background-image: url('./images/optimise/one.png');
+}
+
+.background-two {
+    background-image: url('./images/optimise/two.png');
+}
+.background-three {
+    background-image: url('./images/optimise/three.png');
+}
+.background-four {
+    background-image: url('./images/optimise/four.png');
+}
+
+.box-border:hover {
+    border-bottom: 2px solid blue !important;
+    cursor: pointer;
+}
