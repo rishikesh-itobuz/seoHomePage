@@ -1,3 +1,12 @@
+
+.hover-shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    border-radius: 8px;
+}
+/* .small-text {
+    line-height:22px
+} */
+
 /* Navbar section styles starts here */
 .red-dot {
     height: 20%;
@@ -8,7 +17,7 @@
 .hamburger {
     position: absolute;
     top: 25px;
-    left:85vw ;
+    left:93vw ;
 }
 
 .visibility {
@@ -34,7 +43,8 @@
 
 /* Navbar section styles ends here */
 
-/*Top section starts here */
+/* Hero section starts here */
+
 .our-team-icon {
     position: absolute;
     top: 89%;
@@ -46,7 +56,7 @@
 }
 
 
-/* Top section ends here */
+/* Hero section ends here */
 
 
 /* Optimisation section starts here */
@@ -58,7 +68,16 @@
 
 .optimising-image {
    position: relative;
-   right: 65px;
+   right: 25%;
+  
+}
+
+.blue-dot {
+    background-image: url('./images/optimise/blue-circle.png');
+    background-repeat: no-repeat;
+    background-position: right 12%;
+    background-size: contain;
+  
 }
 
 .background-one {
@@ -75,7 +94,123 @@
     background-image: url('./images/optimise/four.png');
 }
 
-.box-border:hover {
+.background-img:hover {
     border-bottom: 2px solid blue !important;
     cursor: pointer;
+}
+
+/* Optimisation section ends here */
+
+
+/*Business section starts here */
+
+.business {
+    background-image: url('./images/Business/Vector-17.svg'),url('./images/Business/Vector-18.svg');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    max-width: 100%;   
+    
+}
+
+
+
+/*Business section ends here */
+
+/* Read More section starts here */
+.read-more:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.read-more-button:hover {
+    border-bottom: 2px solid blue;
+}
+
+/* Read More section ends here */
+
+/*Choice section starts here */
+
+.choose-us {
+    background-color: #FAFAFA;
+}
+
+.choose-card {
+    background-color: #ffffff;
+}
+
+/*Why need us section starts here */
+
+
+
+.need-icons {
+    width: 80px;
+    height: 80px;
+}
+
+/* Website speed section starts here */
+
+@media (min-width:768px) {
+    .speed-input {
+        width: 30%;
+    }
+}
+
+/* Our plan section starts here */
+
+.plan-cart {
+    background-color: #ffffff;
+    transition-duration: 1s;
+}
+.plan-cart:hover {
+    color: #FAFAFA ;
+    background-color: #6F77F1;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.plan-cart:hover .plan-type {
+  color: #FAFAFA !important;
+}
+
+.get-started-btn {
+border: 1px solid black;
+}
+.plan-cart:hover .get-started-btn {
+    background-color:#FAD725;
+    color: black;
+}
+
+/* Team member section starts here */
+
+.user-img {
+    height: 40% !important;
+}
+
+.team-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.team-card:hover .user-name {
+    color: #6F77F1;
+}
+
+.social-media-icons:hover {
+    color:#6F77F1 !important;
+}
+
+/* Slider section starts here */
+
+
+/*Subscribe section starts here */
+
+.submit-button {
+    background-color: #6F77F1;
+    color: #ffffff;
+}
+
+/* Footer section starts here */
+
+.footer-link:hover {
+    color: #6F77F1;
+
 }
